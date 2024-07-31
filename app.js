@@ -38,12 +38,6 @@ app.get('/posts/:postName', (req, res)=>{
     console.log(registro)
     res.render('post', {post: registro})
   })
-  // publicaciones.forEach((post)=>{
-  //   const storageTitle = _.lowerCase(post.titulo);
-  //   if(storageTitle === titleUrl){
-  //     res.render('post', {post: post});
-  //   }
-  // });
 });
 
 // Ruta principal para mostrar las publicaciones y contenido inicial
